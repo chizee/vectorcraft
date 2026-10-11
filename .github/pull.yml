@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: storytold:main
+    mergeMethod: hardreset
+    mergeUnstable: true
